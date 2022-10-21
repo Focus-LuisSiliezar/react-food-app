@@ -38,6 +38,11 @@ export default function App() {
           <Stack.Screen
             name='MealDetail'
             component={MealDetailScreen}
+            // options={{
+            //   headerRight: ()=> {
+            //     return <Text>in the header</Text>
+            //   }
+            // }}
           />
         </Stack.Navigator>
       </NavigationContainer>
