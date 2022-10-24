@@ -1,5 +1,5 @@
 import { Pressable, StyleSheet } from "react-native";
-import { Feather } from '@expo/vector-icons';
+import { MaterialIcons } from '@expo/vector-icons';
 
 
 function IconButton({ onPress, icon, color }) {
@@ -8,7 +8,7 @@ function IconButton({ onPress, icon, color }) {
             onPress={onPress}
             style={({ pressed }) => pressed ? style.pressed : null}
         >
-            <Feather
+            <MaterialIcons
                 name={icon}
                 size={24}
                 color={color} />
